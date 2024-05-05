@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"
+        android:text="REST"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_dictionary"
+
+        android:text="Dicionário Online"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape_1"
+        android:foreground="?android:attr/selectableItemBackground"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_correios"
+
+        android:text="Correios | Busca CEP"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginTop="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape_1"
+        android:foreground="?android:attr/selectableItemBackground"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_pokemon"
+
+        android:text="Pokémon"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginTop="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape_1"
+        android:foreground="?android:attr/selectableItemBackground"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        android:text="Ferramentas"/>
+
+    <!-- Ferramentas -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_ferramenta_rest"
+
+        android:text="Ferramenta REST"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape_2"
+        android:foreground="?android:attr/selectableItemBackground"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_servidor_rest"
+
+        android:text="Servidor REST"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_marginTop="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape_2"
+        android:foreground="?android:attr/selectableItemBackground"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

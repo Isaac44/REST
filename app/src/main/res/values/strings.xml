@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">REST Tool</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="json_exemplo">{\n\t\"chave\" : \"valor\",\n\t\"array\" : [\"item1\", \"item2\"],\n\t\"objeto\" : {\n\t\t\"chaveA\" : \"valorA\",\n\t\t\"chaveB\" : \"valorB\"\n\t}\n}</string>
+
+</resources>
