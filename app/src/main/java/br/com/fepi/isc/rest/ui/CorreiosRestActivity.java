@@ -32,10 +32,12 @@ public class CorreiosRestActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dictionary_rest); // Define o layout da activity.
+        setContentView(R.layout.activity_correios_rest); // Define o layout da activity.
 
         // Vincula os componentes da interface do usuário
         mCepEditText = findViewById(R.id.editText);
+        mCepEditText.setTransformationMethod(null);
+        
         mPesquisarButton = findViewById(R.id.button);
         mResultadoTextView = findViewById(R.id.resultTextView);
         mProgressBarView = findViewById(R.id.progressBar);
