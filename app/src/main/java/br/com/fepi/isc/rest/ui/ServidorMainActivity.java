@@ -31,7 +31,7 @@ public class ServidorMainActivity extends AppCompatActivity
     // ---------------------------------------------------------------------------------------------
 
     private static final String TAG = "RESTServer";
-    private static final String JSON_INVALIDO = "{\"erro\" : \"JSON do servidor é inválido…\"";
+    private static final String JSON_INVALIDO = "{\"erro\" : \"JSON do servidor é inválido…\"}";
 
     // ---------------------------------------------------------------------------------------------
     // Atributos
@@ -53,7 +53,11 @@ public class ServidorMainActivity extends AppCompatActivity
         String url = "Minha URL: http://" + Helpers.getIPAddress(true) + ":8080";
         ((TextView) findViewById(R.id.meuIP)).setText(url);
 
-        ((EditText) findViewById(R.id.editText)).addTextChangedListener(new TextWatcher() {
+        EditText editText = findViewById(R.id.editText);
+
+        mRespostaJson = editText.getText().toString();
+
+        editText.addTextChangedListener(new TextWatcher() {
             @Override public void beforeTextChanged(CharSequence s, int start, int count, int after) { }
             @Override public void onTextChanged(CharSequence s, int start, int before, int count) {}
             @Override

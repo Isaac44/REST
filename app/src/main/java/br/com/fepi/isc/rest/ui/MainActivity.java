@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         makeOpenActivityLink(R.id.btn_dictionary, DictionaryRestActivity.class);
-        makeOpenActivityLink(R.id.btn_correios, DictionaryRestActivity.class);
+        makeOpenActivityLink(R.id.btn_correios, CorreiosRestActivity.class);
         makeOpenActivityLink(R.id.btn_pokemon, PokemonRestActivity.class);
         makeOpenActivityLink(R.id.btn_ferramenta_rest, FerramentaRestActivity.class);
         makeOpenActivityLink(R.id.btn_servidor_rest, ServidorMainActivity.class);
